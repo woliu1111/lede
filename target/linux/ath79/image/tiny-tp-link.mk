@@ -353,6 +353,7 @@ define Device/tplink_tl-wr841-v8
   DEVICE_MODEL := TL-WR841N/ND
   DEVICE_VARIANT := v8
   TPLINK_HWID := 0x08410008
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ledtrig-usbport
   SUPPORTED_DEVICES += tl-wr841n-v8
 endef
 TARGET_DEVICES += tplink_tl-wr841-v8
