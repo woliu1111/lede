@@ -348,7 +348,7 @@ endef
 TARGET_DEVICES += tplink_tl-wr841-v7
 
 define Device/tplink_tl-wr841-v8
-  $(Device/tplink-4mlzma)
+  $(Device/tplink-16mlzma)
   SOC := ar9341
   DEVICE_MODEL := TL-WR841N/ND
   DEVICE_VARIANT := v8
